@@ -1,0 +1,21 @@
+﻿<Window x:Class="MonthlyClaims.Homepage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonthlyClaims"
+        mc:Ignorable="d"
+        Title="Homepage" Height="450" Width="800">
+    <Grid Background="#FFF9DFD4" OpacityMask="#FFFFEBD4">
+        <Button Content="Profile" HorizontalAlignment="Left" Height="35" Margin="37,318,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_3" FontSize="14" FontFamily="MV Boli"/>
+        <Button Content="Add Claim" HorizontalAlignment="Left" Height="35" Margin="233,318,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_4" FontSize="14" FontFamily="MV Boli"/>
+        <Button Content="Check Claim" HorizontalAlignment="Left" Height="35" Margin="432,318,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_5" FontFamily="MV Boli" FontSize="14"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Height="34" Margin="615,318,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_6" FontFamily="MV Boli" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="128" Margin="37,0,0,0" VerticalAlignment="Center" Width="133" Source="/p.profile1.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="129" Margin="226,0,0,0" VerticalAlignment="Center" Width="145" Source="/Notes icon.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="116" Margin="615,153,0,0" VerticalAlignment="Top" Width="128" Source="/logout1.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="118" Margin="432,153,0,0" VerticalAlignment="Top" Width="110" Source="/checkclaim.jpeg"/>
+        <Rectangle HorizontalAlignment="Center" Height="39" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="White"/>
+
+    </Grid>
+</Window>

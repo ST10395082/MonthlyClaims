@@ -1,0 +1,38 @@
+﻿<Window x:Class="MonthlyClaims.Claim"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonthlyClaims"
+        mc:Ignorable="d"
+        Title="Claim" Height="450" Width="800">
+    <Grid Background="White" OpacityMask="White">
+        <Rectangle HorizontalAlignment="Center" Height="39" VerticalAlignment="Top" Width="800" Fill="#FFF9DFD5" OpacityMask="#FFFFEBD4"/>
+
+        <Button Content="Back" HorizontalAlignment="Left" Height="18" Margin="12,10,0,0" VerticalAlignment="Top" Width="55" Click="Button_Click_7" Background="#FF9CD1DD" FontFamily="MV Boli"/>
+        <Label Content="LECTURER: MAKE CLAIM" HorizontalAlignment="Left" Margin="255,3,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="18" FontWeight="Bold"/>
+        <Label Content="Lecture name" HorizontalAlignment="Left" Margin="40,65,0,0" VerticalAlignment="Top"/>
+        <Label Content="Lecture ID" HorizontalAlignment="Left" Margin="428,65,0,0" VerticalAlignment="Top"/>
+        <Label Content="TOTAL CLAIMED" HorizontalAlignment="Left" Margin="38,400,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Button Content="Upload Claim" HorizontalAlignment="Left" Margin="683,402,0,0" VerticalAlignment="Top" Click="Button_Click_8"/>
+
+
+        <TextBox x:Name="ProgrammeCode" HorizontalAlignment="Left" Margin="150,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="25"/>
+        <TextBox x:Name="ModuleCode" HorizontalAlignment="Left" Margin="150,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="25"/>
+        <TextBox x:Name="TotalHours" HorizontalAlignment="Left" Margin="150,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="462" Height="25"/>
+        <TextBox x:Name="Rate" HorizontalAlignment="Left" Margin="150,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="25"/>
+        <TextBox x:Name="ClaimDate" HorizontalAlignment="Left" Margin="150,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="25"/>
+        <TextBox x:Name="TotalClaimed" HorizontalAlignment="Left" Margin="176,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Height="25"/>
+
+        <Label Content="Programme Code" HorizontalAlignment="Left" Margin="32,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Module Code" HorizontalAlignment="Left" Margin="32,154,0,0" VerticalAlignment="Top"/>
+        <Label Content="Total Hours" HorizontalAlignment="Left" Margin="32,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.513,1.096"/>
+        <Label Content="Rate" HorizontalAlignment="Left" Margin="45,253,0,0" VerticalAlignment="Top"/>
+        <Label Content="Claim Date" HorizontalAlignment="Left" Margin="38,296,0,0" VerticalAlignment="Top"/>
+        <Label Content="Upload Documents" HorizontalAlignment="Left" Margin="26,345,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ClaimDate_Copy" HorizontalAlignment="Left" Margin="150,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="25"/>
+        <TextBox x:Name="ProgrammeCode_Copy" HorizontalAlignment="Left" Margin="150,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" Height="25"/>
+        <TextBox x:Name="ProgrammeCode_Copy1" HorizontalAlignment="Left" Margin="508,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" Height="25"/>
+
+    </Grid>
+</Window>

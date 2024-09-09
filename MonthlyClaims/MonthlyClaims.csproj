@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="checkclaim.jpeg" />
+    <None Remove="email-icon.jpeg" />
+    <None Remove="logout1.jpeg" />
+    <None Remove="Notes icon.jpeg" />
+    <None Remove="p.profile1.jpeg" />
+    <None Remove="password-icon.png" />
+    <None Remove="profile-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="checkclaim.jpeg" />
+    <Resource Include="email-icon.jpeg" />
+    <Resource Include="logout1.jpeg" />
+    <Resource Include="Notes icon.jpeg" />
+    <Resource Include="p.profile1.jpeg" />
+    <Resource Include="password-icon.png" />
+    <Resource Include="profile-icon.png" />
+  </ItemGroup>
+
+</Project>

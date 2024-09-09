@@ -1,0 +1,27 @@
+﻿<Window x:Class="MonthlyClaims.ProgrammeCoordinator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonthlyClaims"
+        mc:Ignorable="d"
+        Title="ProgrammeCoordinator" Height="450" Width="800">
+    <Grid>
+
+        <DataGrid x:Name="ClaimDataGrid" AutoGenerateColumns="False" HorizontalAlignment="Center" VerticalAlignment="Top" Height="300" Width="780" Margin="0,91,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Programme Code" Binding="{Binding ProgrammeCode}" Width="*"/>
+                <DataGridTextColumn Header="Module Code" Binding="{Binding ModuleCode}" Width="*"/>
+                <DataGridTextColumn Header="Total Hours" Binding="{Binding TotalHours}" Width="*"/>
+                <DataGridTextColumn Header="Rate" Binding="{Binding Calories}" Width="*"/>
+                <DataGridTextColumn Header="Claim Date" Binding="{Binding ClaimDate}" Width="*"/>
+                <DataGridTextColumn Header="Upload Document" Binding="{Binding UploadDocument}" Width="*"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle HorizontalAlignment="Center" Height="39" VerticalAlignment="Top" Width="800" Fill="#FFF9DFD5" OpacityMask="#FFFFEBD4"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Width="45" Click="Button_Click_11" Background="#FF9CD1E3" FontFamily="MV Boli"/>
+        <Label Content="PROGRAMME COORDINATOR: REVIEW CLAIM" HorizontalAlignment="Left" Margin="171,3,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="MV Boli" FontWeight="Bold"/>
+    </Grid>
+</Window>

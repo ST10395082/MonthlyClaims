@@ -1,0 +1,30 @@
+﻿<Window x:Class="MonthlyClaims.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonthlyClaims"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="White" OpacityMask="#FFFDFDFD">
+        <Rectangle HorizontalAlignment="Center" Height="348" Margin="0,64,0,0" VerticalAlignment="Top" Width="752" Fill="#FFF9DFD5" OpacityMask="#FFFFEBD4"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="85,229,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="79,281,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.584,0.225"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="79,173,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="42" Margin="37,273,0,0" VerticalAlignment="Top" Width="50" Source="/password-icon.png" RenderTransformOrigin="0.422,0.542" OpacityMask="Black"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="150,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="27"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="150,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="27"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Margin="150,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Height="27"/>
+        <Button Content="Lecturer" HorizontalAlignment="Left" Height="32" Margin="58,349,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click" Background="#FF9CD1DD" FontFamily="MV Boli" FontSize="14"/>
+        <Button Content="Programme Coordinator" HorizontalAlignment="Left" Height="32" Margin="543,349,0,0" VerticalAlignment="Top" Width="170" Click="Button_Click_1" Background="#FF9CD1DD" FontFamily="MV Boli" FontSize="14"/>
+        <Button Content="Academic Manager" HorizontalAlignment="Left" Height="32" Margin="314,349,0,0" VerticalAlignment="Top" Width="134 " Click="Button_Click_2" Background="#FF9CD1DD" FontFamily="MV Boli" FontSize="14"/>
+        <Label Content="LOGIN" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Width="72" FontSize="16" FontFamily="MV Boli" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="108" Margin="0,10,0,0" VerticalAlignment="Top" Width="116" Source="/p.profile1.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="37,163,0,0" VerticalAlignment="Top" Width="37" Source="/profile-icon.png" OpacityMask="#FFF7DEBF"/>
+        <Image HorizontalAlignment="Left" Height="28" Margin="37,229,0,0" VerticalAlignment="Top" Width="42" Source="/email-icon.jpeg"/>
+
+
+
+
+    </Grid>
+</Window>
